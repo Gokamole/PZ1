@@ -4,10 +4,10 @@
 
 # import all nessesary modules and libs
 import is_even as ev # import module check 4etnoe
-import is_prime as pr # import module check prostoe 
 import sum as s # import module find sum of list
-import temperature as tem # import module corvertation from Cel to Farengeit
+import complex.temperature as tem # import module corvertation from Cel to Farengeit
 import math as m
+from ..functions_lz import is_prime as pr
 
 def main():
     user_choise = input("   Choose your function "
